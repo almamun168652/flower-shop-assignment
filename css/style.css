@@ -124,7 +124,7 @@ body {
     background: rgba(5, 151, 160, 0.15);
 }
 
-.feature-img-2 img{
+.feature-img-2 img {
     bottom: 10%;
 }
 
@@ -133,11 +133,11 @@ body {
     background: rgba(71, 125, 17, 0.15);
 }
 
-.feature-item{
+.feature-item {
     text-align: center;
 }
 
-.feature-item a{
+.feature-item a {
     color: #272727;
     font-weight: 900;
     margin-top: 20px;
@@ -147,3 +147,37 @@ body {
 
 
 /* service style */
+
+#service {
+    margin: 80px 150px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 220px;
+}
+
+.service-item-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item img {
+    width: 60px;
+}
+
+.service-item p {
+    font-weight: 700;
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+/* deal style */
