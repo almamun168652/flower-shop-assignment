@@ -283,6 +283,12 @@ body {
 }
 
 
+/* support */
+
+
+
+
+
 
 /* footer */
 
@@ -294,6 +300,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 150px;
+    padding-top: 50px;
 }
 
 .footer-content h1{
@@ -316,4 +324,42 @@ body {
     color:rgba(255, 255, 255, 0.40);
     font-size: 10px;
     margin-top: 20px;
+}
+
+#support{
+    margin: 0 150px;
+    background: rgb(193, 9, 76);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-top: -425px;
+}
+
+.support-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.support-item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+
+.support-item i{
+    font-size: 50px;
+}
+
+.contract-content-wrapper{
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding: 10px;
+}
+
+.contract-item-one{
+    margin-bottom: 10px;
 }
