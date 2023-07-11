@@ -49,7 +49,7 @@ body {
 
 .btn-primary {
     border-radius: 8px;
-    background: #E55473;
+    background-color: rgb(219, 10, 87);
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -268,7 +268,7 @@ body {
 }
 
 .btn-subscribe{
-    background:#E55473;
+    background-color: rgb(219, 10, 87);
     color:#fff;
     margin-left: 10px;
 }
@@ -305,7 +305,7 @@ body {
 }
 
 .footer-content h1{
-    color: #E55473;
+    color: rgb(219, 10, 87);
     font-weight: 900;
     margin-bottom: 20px;
 }
